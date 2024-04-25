@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.table-container {
+  overflow-x: auto; /* Active la barre de défilement horizontale si nécessaire */
+  margin: 0 auto;
+  white-space: nowrap; /* Garde les lignes du tableau sur une seule ligne */
+}
+
+table {
+  width: 100%; /* Assure que la largeur de la table soit celle de son contenu et non celle du parent */
+  border-radius: 10px;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+tr {
+  background-color: #fbd2d2;
+}
+
+tr:hover {
+  background-color: cadetblue;
+}
+
+header {
+  background-color: #383B3E;
+  border-radius: 5px;
+  margin: 10px;
+  gap:20px;
+}
+
+.Filter {
+  background-color: #383B3E;
+  border-radius: 5px;
+  margin: 10px;
+  justify-content: space-between;
+  gap:20px;
+  padding : 10px;
+}
+
+body {
+  background-color: #D6E3ED;
+}
+
+@media (max-width: 768px) {
+  /* Styles pour les écrans plus petits */
+  th, td {
+    padding: 4px; /* Réduisez le padding sur les petits écrans */
+  }
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  transition: all 200ms;
+  opacity: 0.5;
+}
+
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 75%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+}
