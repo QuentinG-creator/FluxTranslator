@@ -2,7 +2,7 @@ function Translation_disco(flux) {
     return true;
 }
 
-//this function is for translate the flux (In the futur we need to translate this to a classe Flux)
+//this function is for translate the flux
 function Translation_Ginko(flux) {
     let result = [];
     switch (flux[1]) {
