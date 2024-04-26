@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FluxTranslator/static/css/main.67bf931e.chunk.css",
-    "main.js": "/FluxTranslator/static/js/main.c0f5d8a3.chunk.js",
-    "main.js.map": "/FluxTranslator/static/js/main.c0f5d8a3.chunk.js.map",
+    "main.js": "/FluxTranslator/static/js/main.eb3d6780.chunk.js",
+    "main.js.map": "/FluxTranslator/static/js/main.eb3d6780.chunk.js.map",
     "runtime~main.js": "/FluxTranslator/static/js/runtime~main.1d8a18c4.js",
     "runtime~main.js.map": "/FluxTranslator/static/js/runtime~main.1d8a18c4.js.map",
-    "static/js/2.a2b181a3.chunk.js": "/FluxTranslator/static/js/2.a2b181a3.chunk.js",
-    "static/js/2.a2b181a3.chunk.js.map": "/FluxTranslator/static/js/2.a2b181a3.chunk.js.map",
+    "static/js/2.b7774703.chunk.js": "/FluxTranslator/static/js/2.b7774703.chunk.js",
+    "static/js/2.b7774703.chunk.js.map": "/FluxTranslator/static/js/2.b7774703.chunk.js.map",
     "index.html": "/FluxTranslator/index.html",
-    "precache-manifest.07587c9e85caad11de633c619e3f0b95.js": "/FluxTranslator/precache-manifest.07587c9e85caad11de633c619e3f0b95.js",
+    "precache-manifest.f71915cf668af841f774ccd77a0de21d.js": "/FluxTranslator/precache-manifest.f71915cf668af841f774ccd77a0de21d.js",
     "service-worker.js": "/FluxTranslator/service-worker.js",
     "static/css/main.67bf931e.chunk.css.map": "/FluxTranslator/static/css/main.67bf931e.chunk.css.map"
   }
