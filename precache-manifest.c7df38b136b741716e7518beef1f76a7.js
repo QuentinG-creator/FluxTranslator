@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "138550c0115ee68f909dce3e0075539f",
+    "revision": "2943b7e438ecc5cf64721c2c051be5dd",
     "url": "/FluxTranslator/index.html"
   },
   {
