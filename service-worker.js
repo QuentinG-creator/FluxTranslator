@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/FluxTranslator/precache-manifest.c5f5d5a22f8a22179840bc60709cead9.js"
+  "/FluxTranslator/precache-manifest.b223a1613d50373756281e550cd18e2b.js"
 );
 
 self.addEventListener('message', (event) => {
