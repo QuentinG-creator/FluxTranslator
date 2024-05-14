@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d870a78fc9de5500335a20a098cf031",
+    "revision": "21932ee60306ab1248ff71edcdeb915e",
     "url": "/FluxTranslator/index.html"
   },
   {
-    "revision": "7eff987420a4d3becff7",
+    "revision": "9f719cc6932900d05f4c",
     "url": "/FluxTranslator/static/css/main.67bf931e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FluxTranslator/static/js/2.a2b181a3.chunk.js"
   },
   {
-    "revision": "7eff987420a4d3becff7",
-    "url": "/FluxTranslator/static/js/main.91de55dd.chunk.js"
+    "revision": "9f719cc6932900d05f4c",
+    "url": "/FluxTranslator/static/js/main.29f749ba.chunk.js"
   },
   {
     "revision": "be11c8d34c2d5ab0f177",
