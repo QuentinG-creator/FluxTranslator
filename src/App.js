@@ -1,6 +1,6 @@
 import './css/App.css';
-import { Translation_Ginko, Translation_disco } from './utils/Flux'
 import React, { useState } from 'react';
+import { Translation_Ginko} from './utils/Flux';
 
 function App() {
   //SetInputValue is used to get the state of many input enter
@@ -49,7 +49,7 @@ function App() {
         setActiveTable('miseEnService');
         break;
       default :
-        switch(flux[1])
+        switch(flux[0])
         {
           case "A" :
             setActiveTable("souscription(disco)");
@@ -72,7 +72,7 @@ function App() {
             setActiveTable(null)
         }
     }
-    const newData = addDataToTable(disco ? Translation_disco(flux) : Translation_Ginko(flux));
+    const newData = addDataToTable(Translation_Ginko(flux));
   };
 
 
@@ -88,21 +88,31 @@ function App() {
             <th>N° PDL</th>
             <th>Date</th>
             <th>Ancien matricule</th>
-            <th>Nombre de cadran av mod</th>
-            <th>1er index av mod</th>
-            <th>2e index av mod</th>
-            <th>3e index av mod</th>
-            <th>4e index av mod</th>
-            <th>5e index av mod</th>
-            <th>6e index av mod</th>
+            <th>Nbr de cadran dist. av mod</th>
+            <th>1er index dist. av mod</th>
+            <th>2e index dist. av mod</th>
+            <th>3e index dist. av mod</th>
+            <th>4e index dist. av mod</th>
+            <th>Nbr de cadran four. av mod</th>
+            <th>1er index four. av mod</th>
+            <th>2e index four. av mod</th>
+            <th>3e index four. av mod</th>
+            <th>4e index four. av mod</th>
+            <th>5e index four. av mod</th>
+            <th>6e index four. av mod</th>
             <th>Nouveau matricule</th>
-            <th>Nombre de cadran ap mod</th>
-            <th>1er cadran ap mod</th>
-            <th>2e cadran ap mod</th>
-            <th>3e cadran ap mod</th>
-            <th>4e cadran ap mod</th>
-            <th>5e cadran ap mod</th>
-            <th>6e cadran ap mod</th>
+            <th>Nbr de cadran dist. ap mod</th>
+            <th>1er index dist. ap mod</th>
+            <th>2e index dist. ap mod</th>
+            <th>3e index dist. ap mod</th>
+            <th>4e index dist. ap mod</th>
+            <th>Nbr de cadran four. ap mod</th>
+            <th>1er cadran four. ap mod</th>
+            <th>2e cadran four. ap mod</th>
+            <th>3e cadran four. ap mod</th>
+            <th>4e cadran four. ap mod</th>
+            <th>5e cadran four. ap mod</th>
+            <th>6e cadran four. ap mod</th>
             <th>Type de relevé</th>
             <th>Puissance Souscrite</th>
             <th>Type Compteur</th>
@@ -125,6 +135,7 @@ function App() {
             <th>N° PDL</th>
             <th>Date</th>
             <th>Matricule Compteur</th>
+            <th>FTA</th>
             <th>Calendrier fournisseur</th>
             <th>Nombre de cadran</th>
             <th>1er index résiliation</th>
@@ -153,6 +164,7 @@ function App() {
             <th>N° Demande SGE</th>
             <th>N° partenaire</th>
             <th>Matricule Compteur</th>
+            <th>Calendrier fournisseur</th>
             <th>Nombre de cadran</th>
             <th>1er index</th>
             <th>2e index</th>
@@ -163,6 +175,7 @@ function App() {
             <th>Type de relevé</th>
             <th>Puissance Souscrite</th>
             <th>Type Compteur</th>
+            <th>Calendrier distributeur</th>
           </tr>
 
           {data.map((row, index) => (
